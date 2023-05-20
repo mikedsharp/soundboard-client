@@ -5,7 +5,7 @@ function SoundBoardGrid(props: { sounds: any[] }) {
   return (
     <StyledSoundBoardGrid>
       {props.sounds.map((sound) => {
-        return <SoundTile sound={sound} />;
+        return <SoundTile key={sound.name} sound={sound} />;
       })}
     </StyledSoundBoardGrid>
   );

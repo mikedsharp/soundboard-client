@@ -4,7 +4,7 @@
 
 This project requires NodeJS, please install Node however you prefer. There are many ways, such as running the installer from https://nodejs.org/en or using `nvm` or other package managers.
 
-Minimum supported node version is node version
+Minimum supported node version is node version 16
 
 ## Before you run the app
 

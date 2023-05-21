@@ -1,7 +1,7 @@
 import SoundBoardGrid from "./components/SoundBoardGrid";
 function App() {
-  const mockSounds = JSON.parse(localStorage.getItem("sounds"));
-  return <SoundBoardGrid sounds={mockSounds} />;
+  const sounds = JSON.parse(localStorage.getItem("sounds"));
+  return <SoundBoardGrid sounds={sounds} />;
 }
 
 export default App;

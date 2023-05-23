@@ -13,7 +13,7 @@ Please ensure you have the `soundboard-listener` app running on the machine you 
 The `soundboard-listener` project can be found here:
 https://github.com/programmerinprogress/soundboard-listener
 
-Once you have the `soundboard-listener` project up and running (it will be running by default on port 3000), you need to take the envrionemnt variable that the `soundboard-listener` gave you in the console and add it to a `.env` file at the root of the project.
+Once you have the `soundboard-listener` project up and running (it will be running by default on port 3000), you need to take the environment variable that the `soundboard-listener` gave you in the console output and add it to a `.env` file at the root of the project.
 
 The `.env` file should now look something like this, but with your local network ip included instead of the placeholder text:
 

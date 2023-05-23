@@ -13,15 +13,11 @@ Please ensure you have the `soundboard-listener` app running on the machine you 
 The `soundboard-listener` project can be found here:
 https://github.com/programmerinprogress/soundboard-listener
 
-Once you have the `soundboard-listener` project up and running (it will be running by default on port 3000), you need to make a note of the ip address of the machine you're running the listener on, and add it to a `.env` file at the root of the project.
+Once you have the `soundboard-listener` project up and running (it will be running by default on port 3000), you need to take the envrionemnt variable that the `soundboard-listener` gave you in the console and add it to a `.env` file at the root of the project.
 
-Inside of the `.env` file, you need to add the following:
+The `.env` file should now look something like this, but with your local network ip included instead of the placeholder text:
 
 > `VITE_SOUND_SERVER_ADDRESS=http://<YOUR LOCAL IP ADDRESS>:3000`
-
-Please replace `<YOUR LOCAL IP ADDRESS>` with the IP address of the computer you're running the listener on, it should like something along the lines of `192.168.10.255`, the last two numbers will be something different to that.
-
-With the `soundboard-listener` and `.env` file all set up, you're ready to go!
 
 ## installing dependencies
 

@@ -35,7 +35,7 @@ At the root of the project (where the `package.json` is located), run the comman
 
 This will allow you to host a local version of the soundboard, which you can then access from other devices on your local network (such as a tablet or phone)
 
-The app should now be accessible at `http://localhost:5173`, but if you need to access this from another device, the correct address will be displayed for you to folow (this will start with `http://192.168`, followed by the rest of the IP address on your network)
+The app should now be accessible at `http://localhost:5173`, but if you need to access this from another device, the correct address will be displayed in the console for you to follow (this will start with `http://192.168`, followed by the rest of the IP address on your network)
 
 ## Using the soundboard
 
